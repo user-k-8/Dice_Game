@@ -1,0 +1,189 @@
+  body{
+      background: url('./images/R\ \(6\).jpg') center center / cover;
+      overflow-x: hidden;
+      
+      }
+
+      @keyframes jump {
+      0% {
+      transform: translateY(0);
+      }
+      50% {
+      transform: translateY(-10px);
+      }
+      100% {
+      transform: translateY(0);
+      }
+      }
+  
+  .jumping-emoji {
+      display: inline-block;
+      animation: jump 1s infinite;
+      }
+
+      .pop-up{
+        display: none;
+      }
+  
+  .container {
+     
+      margin: auto;
+      text-align: center;
+           
+      }
+
+ 
+.about{
+     padding-top: 80px;
+     padding-left: 20px;
+     text-align: center;
+      }
+
+.about-text{
+    color: #ff8484e8;
+}
+
+.game-container{
+    padding-top: 20px;
+}
+
+  .dice {
+      text-align: center;
+      gap: 85px;
+      display: inline-block;
+      margin: 10px;
+      }
+
+  h1 {
+      margin: 30px;
+      font-family: 'Rouge Script', cursive;
+      font-size: 4.5rem;
+      color: #ff2d2d ;
+      font-weight: 500 !important;
+      padding-top: 20px;
+      
+      }
+
+      h2{
+        
+        font-family: 'Rouge Script', cursive;
+        font-size: 3.5rem;
+        color:#ff2d2d ;
+        text-align: center;
+        }
+
+
+  p {
+      font-size: 2rem;
+      color: #ff7f7f ;
+      font-family: 'Source Serif 4', serif;
+      text-align: center;
+
+      
+      }
+               
+      .btn-grad {
+        background-image: linear-gradient(to right, #ff421c 0%, #da2c26  51%, #cc0303  100%);
+        border: none !important;
+        
+      }
+
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+
+    
+     
+
+  img {
+      width: 100%;
+      }
+
+  
+  
+  
+  button:active {
+      text-shadow: none;
+      color: var(--c);
+      box-shadow: inset 0 0 9e9q #0005;
+      transition: 0s;
+      }
+
+  .rotating-words {
+      perspective: 500px;
+      animation: rotateAnimation 5s infinite linear;
+      }
+
+   
+  .even-roll {
+      transition: transform 1.5s ease-out;
+      }
+  .odd-roll {
+      transition: transform 1.25s ease-out;
+      }
+.editNames{
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+
+.game-button{
+    background-color: #da2c26  !important;
+    border-radius: 50px !important;
+    border-color: #da2c26;
+}
+
+.footer{
+    padding-top: 30px;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  body.dark-mode {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+  }
+  
+  
+
+
+
+.Player1{
+    padding-bottom: 20px;
+}
+
+.Player2{
+    padding-bottom: 20px;
+}
+.start-button-container{
+    margin-top: 30px;
+}
+
+
+
+.dice-face{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px !important;
+    opacity: 0.8;
+}
+
+.footer-names{
+    color:#ff2d2d ;
+}
+
+.button-container{
+    text-align: center;
+    display: inline-block;
+  }
+
+ 
+  
